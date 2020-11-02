@@ -1,0 +1,32 @@
+.expandTerritories {
+    height: 741px;
+}
+
+.container > .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg-img {
+    position: relative;
+    background: url("../assets/background.jpg") center center no-repeat;
+    background-size: cover;
+} 
+
+
+.bg-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .6;
+}
+
+.bg-grayish {
+    background-color: #353535;
+}
