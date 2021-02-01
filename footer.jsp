@@ -1,5 +1,8 @@
 <!DOCTYPE html> 
 <html>
+    <head>
+        <title>Example</title>
+    </head>
     <body>
         <h1>Hello There!</h1>
     </body>
